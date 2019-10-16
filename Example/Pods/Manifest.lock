@@ -1,0 +1,16 @@
+PODS:
+  - AFSamplePod (0.1.0)
+
+DEPENDENCIES:
+  - AFSamplePod (from `../`)
+
+EXTERNAL SOURCES:
+  AFSamplePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFSamplePod: e5b79698d1bc3502768eb01d1666054a25189375
+
+PODFILE CHECKSUM: 056293d64f499e477a0168e2f53c34f53f00f0b9
+
+COCOAPODS: 1.6.0.beta.2
