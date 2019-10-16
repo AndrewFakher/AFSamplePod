@@ -7,17 +7,18 @@
 //
 
 import UIKit
+import AFSamplePod
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        imageView.roundViewWith(borderColor: UIColor.white, borderWidth: 15.0)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 }
