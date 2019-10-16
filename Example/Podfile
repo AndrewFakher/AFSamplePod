@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AFSamplePod_Example' do
+  pod 'AFSamplePod', :path => '../'
+
+  target 'AFSamplePod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
